@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+.background-layer{
+    height: 100%;
+    width: 100%;
+    background-image: url("../assets/images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content{
+    z-index: 0;
+    width: 60%;
+    height:70%;
+    position: absolute;
+    top:20%;
+    left: 15%;
+}
+
+.content img{
+    height: 100%;
+    border-radius:5px;
+}
+.txt{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.greeting{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.hello{
+    font-size: 2.5em;
+    position: relative;
+    right: 18%;
+}
+
+.name{
+    font-size: 1.25em;
+    position:absolute;
+    right: 0;
+}
+
+#speaker {
+    
+    width: 25px;
+    position: relative;
+    top:7px;
+    cursor: pointer;
+  }
+
+  #speaker:hover {
+    transform: scale(1.1);
+  }
+
+  
+  ul{
+      list-style: none;
+      position: absolute;
+      top:170%;
+      right:10px;
+    }
+    li{
+        display: inline;
+    }
+    li a img{
+        width:30px;
+        margin-left:2px;
+        padding:2px;
+    }
+    
+    .introduction{
+        position: absolute;
+        top:35%;
+        left:50%;
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .introduction a{
+        text-decoration: none;
+    }
